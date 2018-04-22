@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinView">
+        <attr name="pinCount" format="integer"/>
+        <attr name="boxSize" format="dimension"/>
+        <attr name="boxSpacing" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="DotPinView">
+        <attr name="dotItemLayout" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TextPinView">
+        <attr name="textItemLayout" format="reference"/>
+    </declare-styleable>
+</resources>
